@@ -14,6 +14,13 @@
 		E3445BB723FDF40400382A53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3445BB523FDF40400382A53 /* LaunchScreen.storyboard */; };
 		E3445BC223FDF40400382A53 /* simulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3445BC123FDF40400382A53 /* simulatorTests.swift */; };
 		E3445BCD23FDF40400382A53 /* simulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3445BCC23FDF40400382A53 /* simulatorUITests.swift */; };
+		E3445BDB23FDF52E00382A53 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3445BDA23FDF52E00382A53 /* Team.swift */; };
+		E3445BDD23FDFA1500382A53 /* TeamsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3445BDC23FDFA1500382A53 /* TeamsTableViewCell.swift */; };
+		E3445BDF23FDFC8E00382A53 /* TeamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3445BDE23FDFC8E00382A53 /* TeamTableViewController.swift */; };
+		E3445BE52403179000382A53 /* SimulationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3445BE42403179000382A53 /* SimulationController.swift */; };
+		E3445BE7240327E500382A53 /* PlayoffsSimulationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3445BE6240327E500382A53 /* PlayoffsSimulationController.swift */; };
+		E3445BE9240A128300382A53 /* EastStandingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3445BE8240A128300382A53 /* EastStandingsController.swift */; };
+		E39CDA33240C58980078E273 /* pastWinnersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39CDA32240C58980078E273 /* pastWinnersController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E3445BA923FDF40400382A53 /* simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3445BA923FDF40400382A53 /* Basketball Season Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basketball Season Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3445BAC23FDF40400382A53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3445BAE23FDF40400382A53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E3445BB123FDF40400382A53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		E3445BC823FDF40400382A53 /* simulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3445BCC23FDF40400382A53 /* simulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simulatorUITests.swift; sourceTree = "<group>"; };
 		E3445BCE23FDF40400382A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3445BDA23FDF52E00382A53 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		E3445BDC23FDFA1500382A53 /* TeamsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsTableViewCell.swift; sourceTree = "<group>"; };
+		E3445BDE23FDFC8E00382A53 /* TeamTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewController.swift; sourceTree = "<group>"; };
+		E3445BE42403179000382A53 /* SimulationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationController.swift; sourceTree = "<group>"; };
+		E3445BE6240327E500382A53 /* PlayoffsSimulationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayoffsSimulationController.swift; sourceTree = "<group>"; };
+		E3445BE8240A128300382A53 /* EastStandingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EastStandingsController.swift; sourceTree = "<group>"; };
+		E39CDA32240C58980078E273 /* pastWinnersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pastWinnersController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +101,7 @@
 		E3445BAA23FDF40400382A53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E3445BA923FDF40400382A53 /* simulator.app */,
+				E3445BA923FDF40400382A53 /* Basketball Season Simulator.app */,
 				E3445BBD23FDF40400382A53 /* simulatorTests.xctest */,
 				E3445BC823FDF40400382A53 /* simulatorUITests.xctest */,
 			);
@@ -99,7 +113,14 @@
 			children = (
 				E3445BAC23FDF40400382A53 /* AppDelegate.swift */,
 				E3445BAE23FDF40400382A53 /* ViewController.swift */,
+				E3445BE8240A128300382A53 /* EastStandingsController.swift */,
+				E3445BDE23FDFC8E00382A53 /* TeamTableViewController.swift */,
+				E3445BDC23FDFA1500382A53 /* TeamsTableViewCell.swift */,
+				E3445BDA23FDF52E00382A53 /* Team.swift */,
+				E3445BE42403179000382A53 /* SimulationController.swift */,
+				E3445BE6240327E500382A53 /* PlayoffsSimulationController.swift */,
 				E3445BB023FDF40400382A53 /* Main.storyboard */,
+				E39CDA32240C58980078E273 /* pastWinnersController.swift */,
 				E3445BB323FDF40400382A53 /* Assets.xcassets */,
 				E3445BB523FDF40400382A53 /* LaunchScreen.storyboard */,
 				E3445BB823FDF40400382A53 /* Info.plist */,
@@ -142,7 +163,7 @@
 			);
 			name = simulator;
 			productName = simulator;
-			productReference = E3445BA923FDF40400382A53 /* simulator.app */;
+			productReference = E3445BA923FDF40400382A53 /* Basketball Season Simulator.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E3445BBC23FDF40400382A53 /* simulatorTests */ = {
@@ -256,7 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3445BDD23FDFA1500382A53 /* TeamsTableViewCell.swift in Sources */,
+				E3445BDF23FDFC8E00382A53 /* TeamTableViewController.swift in Sources */,
+				E39CDA33240C58980078E273 /* pastWinnersController.swift in Sources */,
+				E3445BE52403179000382A53 /* SimulationController.swift in Sources */,
 				E3445BAF23FDF40400382A53 /* ViewController.swift in Sources */,
+				E3445BE9240A128300382A53 /* EastStandingsController.swift in Sources */,
+				E3445BDB23FDF52E00382A53 /* Team.swift in Sources */,
+				E3445BE7240327E500382A53 /* PlayoffsSimulationController.swift in Sources */,
 				E3445BAD23FDF40400382A53 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,13 +459,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DRKA6Z223W;
 				INFOPLIST_FILE = simulator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = Akhan.simulator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Basketball Season Simulator";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,13 +479,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DRKA6Z223W;
 				INFOPLIST_FILE = simulator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = Akhan.simulator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Basketball Season Simulator";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
